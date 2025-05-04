@@ -1,0 +1,43 @@
+.notfound-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.notfound-card {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.notfound-image {
+  width: 200px;
+}
+
+.notfound-paragraph1 {
+  color: #191919;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.1;
+}
+
+.notfound-paragraph2 {
+  color: #191919;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.1;
+}
+
+@media Screen and (max-width: 576px) {
+  .notfound-paragraph1 {
+    font-size: 14px;
+  }
+  .notfound-card {
+    width: 220px;
+  }
+}

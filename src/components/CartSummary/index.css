@@ -1,0 +1,32 @@
+.total-height {
+  width: 209px;
+  height: 28px;
+  gap: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  color: #191919;
+  font-family: inter;
+}
+
+.checkout-button {
+  background-color: #088c03;
+  width: 134px;
+  height: 44px;
+  border-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #ffffff;
+  border: 0px;
+}
+
+.total-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px;
+}

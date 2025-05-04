@@ -1,0 +1,23 @@
+.footer-section-card {
+  text-align: center;
+  background-color: #003f00;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icons {
+  width: 50px;
+}
+
+.footer-content {
+  color: #ffffff;
+}
+
+@media Screen and (max-width: 576px) {
+  .footer-section-card {
+    display: none;
+  }
+}

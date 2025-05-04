@@ -1,0 +1,135 @@
+.login-form-background-container {
+  background-image: url('https://res.cloudinary.com/dphlsy70v/image/upload/v1715410978/NxtMart-Mini%20Project/NxtMart-background_2x_lafqlp.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media Screen and (max-width: 768px) {
+  .login-form-background-container {
+    background-image: url('https://res.cloudinary.com/dphlsy70v/image/upload/v1715410952/NxtMart-Mini%20Project/BackgroundmobileBg_2x_smpqg2.png');
+  }
+}
+
+.login-form-card {
+  background-color: #ffffff;
+  width: 511px;
+  height: 501px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 64px;
+  gap: 16px;
+}
+
+@media Screen and (max-width: 768px) {
+  .login-form-card {
+    width: 328px;
+    height: 478px;
+    padding: 40px;
+  }
+}
+
+@media Screen and (max-width: 576px) {
+  .login-form-card {
+    width: 80%;
+    height: 478px;
+    padding: 20px;
+  }
+}
+
+.website-loginform-logo {
+  width: 119px;
+  height: 85px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  outline: none;
+  border: solid 1px #64748b;
+  border-radius: 8px;
+  width: 100%;
+  height: 40px;
+  padding-left: 35px;
+  font-size: 14px;
+}
+
+@media Screen and (max-width: 768px) {
+  .form-input {
+    width: 100%;
+  }
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.form-icon {
+  position: absolute;
+  top: calc(30%);
+  left: 1rem;
+  color: #64748b;
+}
+
+.form-input-icon-container {
+  position: relative;
+  width: 100%;
+}
+
+.form-checkbox-input {
+  margin-left: 0px;
+  width: 16px;
+  border: solid 1px #64748b;
+  margin-right: 4px;
+  margin-bottom: 10px;
+}
+
+.form-checkbox-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.submitform-button {
+  border-radius: 8px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  gap: 8px;
+  align-self: center;
+  width: 100%;
+}
+
+.onSubmitErrorMsg {
+  font-size: 14px;
+  color: #ef4444;
+  gap: 0;
+  margin-top: 0px;
+}
+
+.login-btn-color1 {
+  background-color: #088c03;
+}
+
+.login-btn-color2 {
+  background-color: #b3b3b3;
+}

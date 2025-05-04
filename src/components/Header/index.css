@@ -1,0 +1,124 @@
+.navbar-bg-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.onclick-logoutbtn {
+  background-color: transparent;
+  border: 0px;
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  align-items: center;
+}
+
+.navbar-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d9d9d933;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media Screen and (max-width: 576px) {
+  .navbar-section-container {
+    display: none;
+  }
+  .navbar-bg-container {
+    order: 1;
+  }
+  .mobile-section-container {
+    box-shadow: 0 0 0.9 1 #000000;
+    border-top: solid 1px #d1d5db;
+    border-radius: 16px;
+    height: 8vh;
+  }
+}
+
+.website-home-logo {
+  width: 70px;
+  min-width: 70px;
+  max-width: 100px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 75px;
+}
+
+.nav-items-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-evenly;
+}
+
+.logout-section-container {
+  justify-content: center;
+}
+
+.logout-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-icon {
+  margin-right: 9px;
+  color: #808080;
+  width: 18px;
+}
+
+.list-item-content {
+  color: #333333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.activeBtn {
+  color: #088c03;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.mobilebtn {
+  color: #088c03;
+  font-size: 30px;
+}
+
+.header-icon {
+  color: #808080;
+  font-size: 30px;
+}
+
+.lis-item-mobile-content {
+  color: #333333;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+}
+
+.navbar-ul-mobile-section-container {
+  list-style-type: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+@media Screen and (min-width: 577px) {
+  .navbar-ul-mobile-section-container {
+    display: none;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: none;
+}
